@@ -9,14 +9,14 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: false,
   },
   
-  // 1. Указываем статический экспорт для GitHub Pages
-  output: 'export', 
+  // Обязательно для работы картинок и ссылок на GitHub Pages
+  basePath: '/webArsen',
   
-  // 2. Указываем папку репозитория, чтобы пути к картинкам строились правильно
-  basePath: '/webArsen', 
+  // Обязательно для статического хостинга
+  output: 'export', 
 
   images: {
-    // 3. Глобально отключаем оптимизацию (Github Pages её не поддерживает)
+    // GitHub Pages не умеет сжимать фото на лету, отключаем это
     unoptimized: true, 
     remotePatterns: [
       {
