@@ -12,7 +12,7 @@ const exercises = [
     value: '20+',
     desc: 'Чистыми, без рывков. Турник — второй дом.',
     icon: Target,
-    image: '11a483c0-1cf3-47b0-8cfd-6a31fe09047c.jpeg'
+    image: '/11a483c0-1cf3-47b0-8cfd-6a31fe09047c.jpeg'
   },
   {
     num: '02',
@@ -20,7 +20,7 @@ const exercises = [
     value: '120КГ',
     desc: 'Классика базы. Строго технично.',
     icon: Zap,
-    image: '12534cdc-5fff-47d0-954d-403eff427ba6.jpeg'
+    image: '/12534cdc-5fff-47d0-954d-403eff427ba6.jpeg'
   },
   {
     num: '03',
@@ -28,7 +28,7 @@ const exercises = [
     value: '80КГ',
     desc: 'Строгий подъем штанги стоя.',
     icon: Target,
-    image: '16e881c3-5415-4329-ab50-90897a8fc479.jpeg'
+    image: '/16e881c3-5415-4329-ab50-90897a8fc479.jpeg'
   },
   {
     num: '04',
@@ -36,7 +36,7 @@ const exercises = [
     value: '35 НА 7',
     desc: 'Тяжелая база. Железная хватка.',
     icon: Zap,
-    image: '27ca48cd-6c33-422f-afe2-d0007e9de514.jpeg'
+    image: '/27ca48cd-6c33-422f-afe2-d0007e9de514.jpeg'
   },
 ];
 
