@@ -9,14 +9,15 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: false,
   },
   
-  // Обязательно для работы картинок и ссылок на GitHub Pages
+  // 1. Это самое важное: basePath заставляет пути со слэшем работать
+  // Он превратит "/image.jpg" в "/webArsen/image.jpg" автоматически
   basePath: '/webArsen',
   
-  // Обязательно для статического хостинга
+  // 2. Обязательно для статического хостинга GitHub Pages
   output: 'export', 
 
   images: {
-    // GitHub Pages не умеет сжимать фото на лету, отключаем это
+    // 3. Отключаем оптимизацию, так как на GitHub нет сервера для этого
     unoptimized: true, 
     remotePatterns: [
       {
