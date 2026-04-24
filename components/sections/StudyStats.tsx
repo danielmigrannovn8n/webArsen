@@ -12,7 +12,7 @@ const subjects = [
     value: 'МАЛО',
     desc: 'Выше среднего. Сложные логарифмы и геометрия как орешки.',
     icon: Lightbulb,
-    image: '/2a95a0ee-6f49-47e3-9d09-394c9b87e3e6.jpeg'
+    image: '2a95a0ee-6f49-47e3-9d09-394c9b87e3e6.jpeg'
   },
   {
     num: '02',
@@ -20,7 +20,7 @@ const subjects = [
     value: 'МОЖНО БОЛЬШЕ',
     desc: 'Алгоритмы, программирование и логика.',
     icon: Compass,
-    image: '/39b63253-86e3-48d7-b304-1af3a1b03ab2.jpeg'
+    image: '39b63253-86e3-48d7-b304-1af3a1b03ab2.jpeg'
   },
   {
     num: '03',
@@ -28,7 +28,7 @@ const subjects = [
     value: 'МАЛО',
     desc: 'Грамотность, сочинения и орфография.',
     icon: Lightbulb,
-    image: '/3d31953d-9965-497d-900a-ce29c40cac35.jpeg'
+    image: '3d31953d-9965-497d-900a-ce29c40cac35.jpeg'
   },
   {
     num: '04',
@@ -36,7 +36,7 @@ const subjects = [
     value: 'МОЖНО БОЛЬШЕ',
     desc: 'Понимание устройства мира и эксперименты.',
     icon: Compass,
-    image: '/424684d7-d967-4a33-90c6-1bbcc3949463.jpeg'
+    image: '424684d7-d967-4a33-90c6-1bbcc3949463.jpeg'
   },
 ];
 
