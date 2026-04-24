@@ -4,18 +4,18 @@ import { motion } from 'motion/react';
 import Image from 'next/image';
 
 const photos = [
-  { id: 1, src: '/44faedb5-9b76-4668-95ce-6b87b801d8ed.jpeg', aspect: 'aspect-[4/5]', delay: 0.1 },
-  { id: 2, src: '/586ea2da-cfd1-46ad-a6c6-b85edb786193.jpeg', aspect: 'aspect-[3/4] lg:mt-12', delay: 0.2 },
-  { id: 3, src: '/6cc1e12a-79f3-4022-b0fb-7852942f0a0e.jpeg', aspect: 'aspect-square lg:mt-24', delay: 0.3 },
-  { id: 4, src: '/6d223b29-65b4-4c0a-8556-d65c7393dae8.jpeg', aspect: 'aspect-square lg:-mt-12', delay: 0.1 },
-  { id: 5, src: '/acce5210-2723-4652-9216-b20d2955c82a.jpeg', aspect: 'aspect-[4/3] lg:mt-0', delay: 0.2 },
-  { id: 6, src: '/b5982233-c133-4278-a773-a93f2d14265c.jpeg', aspect: 'aspect-[3/4] lg:mt-12', delay: 0.3 },
-  { id: 7, src: '/b62db764-20b7-464a-8d2f-c512e7c00a1a.jpeg', aspect: 'aspect-[4/5] lg:-mt-8', delay: 0.1 },
-  { id: 8, src: '/c71ee4f0-aabb-4334-8a98-bcba4d714b12.jpeg', aspect: 'aspect-square lg:mt-8', delay: 0.2 },
-  { id: 9, src: '/e26eb65d-03ca-45c0-bcdd-59a83f898593.jpeg', aspect: 'aspect-[4/3] lg:mt-24', delay: 0.3 },
-  { id: 10, src: '/e97e2d27-fab1-43e3-8c43-3a0a8cac4d06.jpeg', aspect: 'aspect-[3/4] lg:mt-0', delay: 0.1 },
-  { id: 11, src: '/e98d1471-4788-4c3f-9e6b-e0fd87ced21c.jpeg', aspect: 'aspect-[4/5] lg:mt-16', delay: 0.2 },
-  { id: 12, src: '/f88c5c70-9b40-4790-829f-220c2b5f83e7.jpeg', aspect: 'aspect-square lg:mt-4', delay: 0.3 },
+  { id: 1, src: '44faedb5-9b76-4668-95ce-6b87b801d8ed.jpeg', aspect: 'aspect-[4/5]', delay: 0.1 },
+  { id: 2, src: '586ea2da-cfd1-46ad-a6c6-b85edb786193.jpeg', aspect: 'aspect-[3/4] lg:mt-12', delay: 0.2 },
+  { id: 3, src: '6cc1e12a-79f3-4022-b0fb-7852942f0a0e.jpeg', aspect: 'aspect-square lg:mt-24', delay: 0.3 },
+  { id: 4, src: '6d223b29-65b4-4c0a-8556-d65c7393dae8.jpeg', aspect: 'aspect-square lg:-mt-12', delay: 0.1 },
+  { id: 5, src: 'acce5210-2723-4652-9216-b20d2955c82a.jpeg', aspect: 'aspect-[4/3] lg:mt-0', delay: 0.2 },
+  { id: 6, src: 'b5982233-c133-4278-a773-a93f2d14265c.jpeg', aspect: 'aspect-[3/4] lg:mt-12', delay: 0.3 },
+  { id: 7, src: 'b62db764-20b7-464a-8d2f-c512e7c00a1a.jpeg', aspect: 'aspect-[4/5] lg:-mt-8', delay: 0.1 },
+  { id: 8, src: 'c71ee4f0-aabb-4334-8a98-bcba4d714b12.jpeg', aspect: 'aspect-square lg:mt-8', delay: 0.2 },
+  { id: 9, src: 'e26eb65d-03ca-45c0-bcdd-59a83f898593.jpeg', aspect: 'aspect-[4/3] lg:mt-24', delay: 0.3 },
+  { id: 10, src: 'e97e2d27-fab1-43e3-8c43-3a0a8cac4d06.jpeg', aspect: 'aspect-[3/4] lg:mt-0', delay: 0.1 },
+  { id: 11, src: 'e98d1471-4788-4c3f-9e6b-e0fd87ced21c.jpeg', aspect: 'aspect-[4/5] lg:mt-16', delay: 0.2 },
+  { id: 12, src: 'f88c5c70-9b40-4790-829f-220c2b5f83e7.jpeg', aspect: 'aspect-square lg:mt-4', delay: 0.3 },
 ];
 
 export default function Gallery() {
