@@ -58,7 +58,7 @@ export default function Hero() {
             <div className="relative w-full h-full bg-black grid place-items-center">
               {/* Fallback image if user hasn't added theirs yet */}
               <Image 
-                src="/photo_5357056260005632071_w_edit_72711856248980.jpg" 
+                src="photo_5357056260005632071_w_edit_72711856248980.jpg" 
                 alt="Alex Portrait"
                 fill
                 className="object-cover opacity-90 transition-transform duration-700 hover:scale-105"
